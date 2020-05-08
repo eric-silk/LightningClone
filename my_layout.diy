@@ -2875,8 +2875,8 @@
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </length>
       <points>
-        <java.awt.Point x="10.3" y="3.8"/>
         <java.awt.Point x="10.3" y="2.8"/>
+        <java.awt.Point x="10.3" y="3.8"/>
       </points>
       <bodyColor>
         <red>107</red>
@@ -3908,9 +3908,9 @@
       <name>Bass</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="7.5" y="2.2"/>
-        <java.awt.Point x="7.8" y="2.2"/>
-        <java.awt.Point x="8.1" y="2.2"/>
+        <java.awt.Point x="7.5" y="2.0"/>
+        <java.awt.Point x="7.8" y="2.0"/>
+        <java.awt.Point x="8.1" y="2.0"/>
       </controlPoints>
       <resistance>
         <value>1.0</value>
@@ -3961,7 +3961,7 @@
       <name>W9</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="7.8" y="2.2"/>
+        <java.awt.Point x="7.8" y="2.0"/>
         <java.awt.Point x="7.7" y="2.4"/>
         <java.awt.Point x="7.8" y="2.6"/>
         <java.awt.Point x="7.7" y="2.8"/>
@@ -3974,7 +3974,7 @@
       <name>W9</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="8.1" y="2.2"/>
+        <java.awt.Point x="8.1" y="2.0"/>
         <java.awt.Point x="8.0" y="2.4"/>
         <java.awt.Point x="8.1" y="2.6"/>
         <java.awt.Point x="8.2" y="2.8"/>
@@ -4003,7 +4003,7 @@
       <alpha>127</alpha>
       <points>
         <java.awt.Point x="7.5" y="2.4"/>
-        <java.awt.Point x="7.5" y="2.2"/>
+        <java.awt.Point x="7.5" y="2.0"/>
       </points>
       <bodyColor reference="../../org.diylc.components.passive.AxialElectrolyticCapacitor[2]/labelColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper[13]/borderColor"/>
@@ -4072,7 +4072,7 @@
         <java.awt.Point x="8.6" y="2.0"/>
         <java.awt.Point x="8.3" y="2.0"/>
         <java.awt.Point x="8.3" y="2.0"/>
-        <java.awt.Point x="8.1" y="2.2"/>
+        <java.awt.Point x="8.1" y="2.0"/>
       </controlPoints>
       <color>
         <red>0</red>
@@ -4108,8 +4108,8 @@
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </width>
       <points>
-        <java.awt.Point x="7.5" y="2.2"/>
-        <java.awt.Point x="7.8" y="2.2"/>
+        <java.awt.Point x="7.5" y="2.0"/>
+        <java.awt.Point x="7.8" y="2.0"/>
       </points>
       <bodyColor>
         <red>130</red>
@@ -4209,6 +4209,164 @@
         <blue>0</blue>
         <alpha>255</alpha>
       </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.misc.GroundSymbol>
+      <name>GND2</name>
+      <point x="11.1" y="3.7"/>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <size>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <type>DEFAULT</type>
+    </org.diylc.components.misc.GroundSymbol>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W12</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="10.3" y="3.8"/>
+        <java.awt.Point x="10.4" y="3.6"/>
+        <java.awt.Point x="10.9" y="3.4"/>
+        <java.awt.Point x="11.1" y="3.7"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.connectivity.HookupWire[20]/color"/>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.passive.PotentiometerPanel>
+      <name>Bass</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="9.7" y="2.0"/>
+        <java.awt.Point x="10.0" y="2.0"/>
+        <java.awt.Point x="10.3" y="2.0"/>
+      </controlPoints>
+      <resistance>
+        <value>1.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">M</unit>
+      </resistance>
+      <orientation>DEFAULT</orientation>
+      <taper>LOG</taper>
+      <bodyDiameter>
+        <value>1.0</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </bodyDiameter>
+      <spacing>
+        <value>0.3</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </spacing>
+      <lugDiameter>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </lugDiameter>
+      <bodyColor>
+        <red>192</red>
+        <green>192</green>
+        <blue>192</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>128</red>
+        <green>128</green>
+        <blue>128</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <nutColor>
+        <red>203</red>
+        <green>213</green>
+        <blue>219</blue>
+        <alpha>255</alpha>
+      </nutColor>
+      <waferColor>
+        <red>205</red>
+        <green>133</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </waferColor>
+      <type>ThroughHole</type>
+      <showShaft>false</showShaft>
+    </org.diylc.components.passive.PotentiometerPanel>
+    <org.diylc.components.passive.RadialFilmCapacitor>
+      <name>C9</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.25</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.125</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="9.7" y="2.0"/>
+        <java.awt.Point x="10.0" y="2.0"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>128</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>178</red>
+        <green>89</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <pinSpacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </pinSpacing>
+      <value>
+        <value>180.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">pF</unit>
+      </value>
+      <voltage>_63V</voltage>
+    </org.diylc.components.passive.RadialFilmCapacitor>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W13</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="10.3" y="2.0"/>
+        <java.awt.Point x="10.8" y="2.0"/>
+        <java.awt.Point x="11.0" y="2.1"/>
+        <java.awt.Point x="11.1" y="3.7"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.connectivity.HookupWire[20]/color"/>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W14</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="9.7" y="2.0"/>
+        <java.awt.Point x="9.7" y="2.2"/>
+        <java.awt.Point x="9.7" y="2.4"/>
+        <java.awt.Point x="9.8" y="2.8"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.connectivity.HookupWire[20]/color"/>
       <pointCount>FOUR</pointCount>
       <gauge>_22</gauge>
     </org.diylc.components.connectivity.HookupWire>
@@ -5064,82 +5222,133 @@
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L4</name>
+      <point x="10.0" y="2.2"/>
+      <text>Grid 3</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>20.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
   </components>
   <groups>
     <set>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[11]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[12]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[10]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[8]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[7]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[9]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[4]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[5]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[6]"/>
     </set>
     <set>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[50]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[60]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[55]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[56]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[52]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[54]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[51]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[58]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[59]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[53]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[57]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[49]"/>
-    </set>
-    <set>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[28]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[34]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[43]"/>
       <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[27]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[25]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[39]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[32]"/>
       <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[35]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[42]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[30]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[38]"/>
       <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[31]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[48]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[42]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[38]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[29]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[37]"/>
       <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[26]"/>
       <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[33]"/>
       <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[40]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[25]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[41]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[36]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[29]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[43]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[45]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[37]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[39]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[34]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[46]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[47]"/>
       <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[44]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[48]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[32]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[41]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[30]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[45]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[28]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[36]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[47]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[46]"/>
     </set>
     <set>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[20]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[21]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[17]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[16]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[13]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[23]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[22]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[18]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[19]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[15]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[14]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[24]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[56]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[51]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[53]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[60]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[50]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[59]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[54]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[58]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[55]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[49]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[52]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[57]"/>
     </set>
     <set>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[5]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[6]"/>
-      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[4]"/>
-    </set>
-    <set>
-      <org.diylc.components.misc.Label reference="../../../components/org.diylc.components.misc.Label[15]"/>
       <org.diylc.components.connectivity.HookupWire reference="../../../components/org.diylc.components.connectivity.HookupWire[14]"/>
+      <org.diylc.components.misc.Label reference="../../../components/org.diylc.components.misc.Label[15]"/>
+    </set>
+    <set>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[10]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[11]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[8]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[12]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[9]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[7]"/>
     </set>
     <set>
       <org.diylc.components.passive.RadialElectrolytic reference="../../../components/org.diylc.components.passive.RadialElectrolytic[5]"/>
       <org.diylc.components.passive.RadialElectrolytic reference="../../../components/org.diylc.components.passive.RadialElectrolytic[6]"/>
+    </set>
+    <set>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[20]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[17]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[18]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[23]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[22]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[19]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[13]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[21]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[15]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[24]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[16]"/>
+      <org.diylc.components.connectivity.Eyelet reference="../../../components/org.diylc.components.connectivity.Eyelet[14]"/>
     </set>
   </groups>
   <lockedLayers/>

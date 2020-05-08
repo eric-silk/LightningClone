@@ -1135,7 +1135,7 @@ Wire Wire Line
 Wire Wire Line
 	10350 3800 10200 3800
 Wire Wire Line
-	10350 5050 10350 4750
+	10350 5050 10350 4900
 Wire Wire Line
 	1050 2650 1050 2400
 Wire Wire Line
@@ -1384,4 +1384,11 @@ Wire Wire Line
 	8450 4100 8450 3900
 Text Notes 8000 4800 0    50   ~ 10
 MV
+Wire Wire Line
+	9250 3900 9600 3900
+Wire Wire Line
+	10350 4900 10550 4900
+Connection ~ 10350 4900
+Wire Wire Line
+	10350 4900 10350 4750
 $EndSCHEMATC
